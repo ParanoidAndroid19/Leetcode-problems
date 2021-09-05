@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/spiral-matrix/
+
 def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         
     # basic idea:
@@ -60,3 +62,7 @@ def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         d = (d+1)%len(direction)
         
     return output
+
+
+
+print(spiralOrder([[1,2,3],[4,5,6],[7,8,9]]))
