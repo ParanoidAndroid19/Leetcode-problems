@@ -16,6 +16,7 @@ def numDecodings(s):
     
     
 def recur(s):
+    # if I make it till the end of string
     if len(s) == 0:
         return 1
 
